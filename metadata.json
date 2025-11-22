@@ -1,0 +1,9 @@
+{
+  "name": "Copy of Copy of Celivox AI",
+  "description": "A world-class AI chatbot with voice, image generation, and persistent memory.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

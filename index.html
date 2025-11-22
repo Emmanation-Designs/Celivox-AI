@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celivox AI - Nigeria's Smartest AI Assistant (Chat, Voice & Images)</title>
+    <meta name="description" content="Celivox AI is Nigeria's most powerful AI assistant. Chat, generate images, speak naturally, analyze PDFs — all in one app. Built by Emmanuel Nwaije.">
+
+    <!-- Open Graph → WhatsApp, Facebook, Instagram -->
+    <meta property="og:title" content="Celivox AI - Nigeria's Unlimited AI Assistant">
+    <meta property="og:description" content="Free 50 messages + 7 images daily. Upgrade for unlimited. Made in Nigeria by Emmanuel Nwaije 🇳🇬">
+    <meta property="og:image" content="https://celivox-ai.vercel.app/celivox-og-image.jpg">
+    <meta property="og:url" content="https://celivox-ai.vercel.app">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Celivox AI - The Nigerian AI That Finally Gives Unlimited Everything">
+    <meta name="twitter:description" content="Chat, voice, images, PDF analysis — all unlimited for ₦250k lifetime. Built by Emmanuel Nwaije">
+    <meta name="twitter:image" content="https://celivox-ai.vercel.app/celivox-og-image.jpg">
+
+    <!-- Keywords -->
+    <meta name="keywords" content="celivox ai, nigerian ai, ai chatbot nigeria, emmanuel nwaije, unlimited ai nigeria, gemini ai nigeria, free ai images, voice ai nigeria, celivox">
+
+    <!-- Author -->
+    <meta name="author" content="Emmanuel Nwaije Ikemefuna">
+
+    <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="%232563eb"/><path fill="white" d="M50 20 L58 42 L80 50 L58 58 L50 80 L42 58 L20 50 L42 42 Z"/><path fill="white" opacity="0.7" d="M80 20 L83 28 L91 31 L83 34 L80 42 L77 34 L69 31 L77 28 Z"/></svg>' />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body { font-family: 'Inter', sans-serif; }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar { width: 6px; height: 6px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 3px; }
+      ::-webkit-scrollbar-thumb:hover { background: #6b7280; }
+      
+      .typing-dot { animation: typing 1.4s infinite ease-in-out both; }
+      .typing-dot:nth-child(1) { animation-delay: -0.32s; }
+      .typing-dot:nth-child(2) { animation-delay: -0.16s; }
+      @keyframes typing { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1); } }
+
+      /* Live Mode Animations */
+      @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+      .animate-fade-in { animation: fade-in 0.5s ease-out forwards; }
+      
+      @keyframes spin-slow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .animate-spin-slow { animation: spin-slow 3s linear infinite; }
+      
+      @keyframes pulse-slow { 0%, 100% { opacity: 0.2; transform: scale(1); } 50% { opacity: 0.1; transform: scale(1.1); } }
+      .animate-pulse-slow { animation: pulse-slow 3s ease-in-out infinite; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "firebase/": "https://aistudiocdn.com/firebase@^12.6.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-900 text-white overflow-hidden">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
